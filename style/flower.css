@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+   margin: 10px 60px 150px 100px ; 
+}
+.link{
+    display: flex;
+    gap: 35px;
+    /* align-items: center; */
+
+}
+li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.home{
+    font-weight: bold;
+}
+.cart{
+    font-weight: 450;
+    font-size: 19px;
+}
+
+/* Section */
+.first{
+    max-width: 1140px;
+    margin: 110px auto;
+    display: flex;
+
+
+ }
+.body{
+    /* text-align: center; */
+}
+.body-title{
+    font-weight: bold;
+    font-size: 64px;
+}
+.body-describsion{
+    font-size: 17px;
+    font-weight: 380;
+    color: rgb(98, 97, 97);
+}
