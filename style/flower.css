@@ -116,3 +116,63 @@ li{
     padding:  12px 36px ;
     border: none;
 }
+/* lavel */
+.lavel{
+    max-width: 1140;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+.img-leval{
+    width: 540px;
+    height: 597px;
+    margin-right: 30px;
+    
+}
+.lavel-descrivsion{
+    width: 540px;
+    height: 520px;
+}
+.lavel-title{
+    margin-left: 40px;
+    font-size: 50px;
+}
+.list-descrivsion{
+  margin-left: 47px;
+  /* text-align: center; */
+  padding: 7px;
+
+}
+.li{
+    list-style: disc;
+    /* gap: 50px; */
+    color: rgb(164, 164, 164);
+    height: 78px;
+    
+}
+
+/* Latest */
+.Latest{
+   max-width: 1140px;
+    margin: 70px auto;
+  
+}
+.deals{
+    font-weight: bold;
+    font-size: 50px;
+    /* width: 1140; */
+    text-align: center;
+    margin-bottom: 5px;
+    /* margin: 0 auto; */
+}
+.deals-descrivsion{
+    font-size:17px;
+    font-weight: 400;
+    color: rgb(137, 137, 138);
+    margin: 0%;
+    width: 800px;
+    height: 54px;
+    margin: 0 auto;
+    text-align: center;
+}
