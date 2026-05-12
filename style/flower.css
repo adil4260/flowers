@@ -33,7 +33,7 @@ li{
 
 /* Section */
 .first{
-    max-width: 1140px;
+    max-width: 1170px;
     margin: 110px auto;
     display: flex;
 
@@ -45,9 +45,74 @@ li{
 .body-title{
     font-weight: bold;
     font-size: 64px;
+    margin-bottom: 0%;
 }
 .body-describsion{
     font-size: 17px;
-    font-weight: 380;
-    color: rgb(98, 97, 97);
+    font-weight: 400;
+    color: rgb(130, 127, 127);
+    margin-top: 4px;
+}
+
+/* Mid */
+.mid{
+    text-align: center;
+    /* width: 1140px; */
+}
+.mid-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+.mid-describsion{
+    width: 800px;
+     font-size: 17px;
+    font-weight: 400;
+    color: rgb(130, 129, 129);
+    margin: 20px auto;
+}
+
+/* box */
+.box{
+    max-width: 1170px;
+     margin-bottom: 250px;
+     display: flex;
+     gap: 14px;
+     /* align-items: center;
+     justify-content: center; */
+     margin: 0 auto;
+     margin-top: 40px;
+     margin-bottom: 40px;
+     display: grid;
+     grid-template-columns:repeat(4,1fr) ;
+   
+
+}
+.card{
+    width: 270px;
+    height:485px;
+    margin: 0 auto;
+      /* border: solid wheat; */
+}
+.card-img{
+    width: 270px;
+    height: 322px;
+}
+.card-title{
+    font-weight: 500;
+    margin-top: 12px;
+
+    margin: 0;
+}
+.card-price{
+    font-weight: 700;
+        margin: 0;
+        margin-bottom: 10px;
+
+}
+.card-bg{
+    background-color: #E95A08;
+    font-weight: bold;
+    color: white;
+    padding:  12px 36px ;
+    border: none;
 }
