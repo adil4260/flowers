@@ -128,7 +128,19 @@ li{
     width: 540px;
     height: 597px;
     margin-right: 30px;
-    
+    position: relative;
+}
+.main-img{
+    width: 100%;
+    display: block;
+}
+.seal-img{
+    position: absolute;
+    width: 50%;
+    top: -10px; ;
+    right:-300px ;
+    transform: translate(-50%,-50%);
+
 }
 .lavel-descrivsion{
     width: 540px;
@@ -441,6 +453,9 @@ footer{
         width: 100%;
         /* height: auto; */
         /* margin: 0 auto; */
+    }
+    .seal-img{
+        display: none;
     }
     .lavel-descrivsion{
         width: 100%;
